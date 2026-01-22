@@ -52,15 +52,18 @@ Common configuration data is defined using **pytest fixtures**:
 ```text
 https://jsonplaceholder.typicode.com
 ```
-## Tested Endpoints
-Method	Endpoint	Description
-GET	/posts	Retrieve all posts
-GET	/posts/{id}	Retrieve a post by ID
-POST	/posts	Create a post
-PUT	/posts/{id}	Full post update
-PATCH	/posts/{id}	Partial update
-DELETE	/posts/{id}	Delete a post
-GET	/posts/{id}/comments	Retrieve post comments
+## Endpoint-uri testate
+| Metodă | Endpoint | Descriere |
+|------|---------|-----------|
+| GET | /posts | Obținerea tuturor postărilor |
+| GET | /posts/{id} | Obținerea unei postări după ID |
+| POST | /posts | Crearea unei postări |
+| PUT | /posts/{id} | Actualizare completă postare |
+| PATCH | /posts/{id} | Actualizare parțială |
+| DELETE | /posts/{id} | Ștergerea unei postări |
+| GET | /posts/{id}/comments | Comentariile unei postări |
+
+---
 
 ---
 ## Test Coverage
