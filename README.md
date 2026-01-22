@@ -87,8 +87,8 @@ API returns 200 OK instead of 404 Not Found for non-existent IDs
 API accepts invalid request bodies and returns 201 Created instead of 400 Bad Request
 
 API accepts null values and empty strings without validation
----
 
+---
 ## Running Automated Tests
 
 (Optional) Create a virtual environment
